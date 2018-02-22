@@ -1,0 +1,26 @@
+
+.header,
+.main-nav {
+  display: flex;
+}
+.header {
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logo a,
+.main-nav a {
+	padding: 10px 15px;
+	text-transform: uppercase;
+	text-align: center;
+  display: block;
+  text-decoration:none;
+
+}
+
+ul{
+  list-style-type:none;
+}
