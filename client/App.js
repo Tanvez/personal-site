@@ -2,18 +2,40 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import './style.css'
 
+import NavBar from './component/navbar'
+
 class App extends Component {
   render() {
     return (
-      <header className="header">
-        <h1 className="logo"><a href="#">VT</a></h1>
-        <ul className="main-nav">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contact</a></li>
-          </ul>
-      </header>
+      <div style={{position: 'fixed', height: '100%', width: '100%'}}>
+  <div className="arc_reactor">
+    <div className="case_container">
+      <div className="e7">
+        <div className="semi_arc_3 e5_1">
+          <div className="semi_arc_3 e5_2">
+            <div className="semi_arc_3 e5_3">
+              <div className="semi_arc_3 e5_4">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="core2"></div>
+      </div>
+      <ul className="marks">
+        <li></li><li></li><li></li><li></li><li></li><li></li>
+        <li></li><li></li><li></li><li></li><li></li><li></li>
+        <li></li><li></li><li></li><li></li><li></li><li></li>
+        <li></li><li></li><li></li><li></li><li></li><li></li>
+        <li></li><li></li><li></li><li></li><li></li><li></li>
+        <li></li><li></li><li></li><li></li><li></li><li></li>
+        <li></li><li></li><li></li><li></li><li></li><li></li>
+        <li></li><li></li><li></li><li></li><li></li><li></li>
+        <li></li><li></li><li></li><li></li><li></li><li></li>
+        <li></li><li></li><li></li><li></li><li></li><li></li>
+      </ul>
+    </div>
+  </div>
+</div> 
     )
   }
 }
