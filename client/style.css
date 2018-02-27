@@ -392,6 +392,27 @@ ul {
   margin-left: 20px;
   margin-top: 20px;
 }
+/* h1 span{
+  height: 200px;
+  position: absolute;
+  width: 20px;
+  left: 0;
+  top: 0;
+  transform-origin: bottom center;
+}
+.char1 { transform: rotate(6deg); }
+.char2 { transform: rotate(12deg); }
+.char3 { transform: rotate(18deg); }
+.char4 { transform: rotate(24deg); }
+.char5 { transform: rotate(30deg); } 
+<h1>
+      <span className="char1">V</span>
+      <span className="char2">e</span>
+      <span className="char3">s</span>
+      <span className="char4">n</span>
+      <span className="char5">a</span>
+      </h1>  
+*/
 
 .marks li {
   display: block;
