@@ -3,14 +3,16 @@ import PropTypes from 'prop-types'
 import './style.css'
 
 import NavBar from './component/navbar'
+// import border from './container/border'
 
 class App extends Component {
   render() {
     return (
-
-<div>    
-  <NavBar/>  
-    <div style={{position: 'fixed', height: '100%', width: '100%'}}>
+      <div>
+      <nav className="draw">
+          <NavBar />
+      </nav>
+      <div style={{position: 'fixed', height: '100%', width: '100%'}}>
     <div className="arc_reactor">
         <div className="case_container">
           <div className="e7">
@@ -39,8 +41,8 @@ class App extends Component {
         </div>
       </div>
     </div> 
-</div>
-  )
+      </div>
+    )
   }
 }
 
@@ -49,3 +51,4 @@ App.propTypes = {
 }
 
 export default App
+
