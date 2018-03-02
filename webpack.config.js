@@ -25,6 +25,13 @@ module.exports = {
           'style-loader',
           'css-loader',
         ]
+      },
+      {
+        test: /\.(woff|woff2|eot|ttf|svg)$/,
+        exclude: /node_modules/,
+        use: {
+          loader: 'url-loader?limit=1024&name=/fonts/[name].[ext]'
+        }
       }
     ]
   },
@@ -32,4 +39,4 @@ module.exports = {
   // to refresh the page for us every time we make a change to our client-side
   // files. It's like `nodemon` for the front end!
   plugins: isDev ? [new LiveReloadPlugin({appendScriptTag: true})] : []
-}
+};

@@ -25,7 +25,7 @@ nav::before, nav::after {
 .draw {
   -webkit-transition: color 0.25s;
   transition: color 0.25s;
-} 
+}
 
 .draw::before, .draw::after {
   border: 2px solid transparent;
@@ -74,10 +74,10 @@ nav::before, nav::after {
 }
 .draw::before {
   top: 0;
-  left: 0;  
+  left: 0;
 
   animation: border 2s, borderRight 2s;
-  animation-delay: 2s;
+  animation-delay: 1s;
   animation-fill-mode: forwards;
   -webkit-animation-fill-mode: forwards;
 }
@@ -85,10 +85,10 @@ nav::before, nav::after {
   bottom: 0;
   right: 0;
   animation: border 2s, borderColor 2s;
-  animation-delay: 3s;
+  animation-delay: 2s;
   animation-fill-mode: forwards;
   -webkit-animation-fill-mode: forwards;
-    
+
 }
 
 @keyframes border {
@@ -118,7 +118,7 @@ nav::before, nav::after {
   50% {
      border-top-color: #60daaa;
   border-right-color: #60daaa;
-    
+
   }
   51% {
      border-top-color: #60daaa;
@@ -137,7 +137,7 @@ nav::before, nav::after {
   50% {
     border-bottom-color: #60daaa;
     border-left-color: #60daaa;
-    
+
   }
   51% {
     border-bottom-color: #60daaa;
@@ -564,14 +564,14 @@ ul {
 .char2 { transform: rotate(12deg); }
 .char3 { transform: rotate(18deg); }
 .char4 { transform: rotate(24deg); }
-.char5 { transform: rotate(30deg); } 
+.char5 { transform: rotate(30deg); }
 <h1>
       <span className="char1">V</span>
       <span className="char2">e</span>
       <span className="char3">s</span>
       <span className="char4">n</span>
       <span className="char5">a</span>
-      </h1>  
+      </h1>
 */
 
 .marks li {

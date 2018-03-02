@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
 import PropTypes from 'prop-types'
 import './style.css'
+import '../public/fonts/stylesheet.css'
 
 import NavBar from './component/navbar'
 // import border from './container/border'
@@ -13,7 +14,7 @@ class App extends Component {
       <div>
         <nav className="draw">
           <NavBar />
-        </nav> 
+        </nav>
 
         <div style={{position: 'fixed', height: '100%', width: '100%'}}>
                 <div className="arc_reactor">
@@ -43,9 +44,9 @@ class App extends Component {
                   </ul>
                 </div>
               </div>
-            </div> 
+            </div>
       </div>
-      
+
 
     )
   }

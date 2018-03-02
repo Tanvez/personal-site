@@ -1,5 +1,6 @@
 import React, { PureComponent } from 'react';
-import './style.css'
+import './style.css';
+
 
 class NavBar extends PureComponent {
   render() {
