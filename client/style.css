@@ -58,18 +58,20 @@ nav::before, nav::after {
 }
 
 .draw {
-  -webkit-animation: colorchange 5s infinite;
+  -webkit-animation: colorchange 5s;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
 }
 
 @keyframes colorchange {
   0% {
-    color: #60daaa;
+    color: #000000;
   }
   50% {
     color: #318d68;
   }
   100% {
-    color: #58c99c;
+    color: #5ab590;
   }
 }
 .draw::before {
