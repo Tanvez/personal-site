@@ -12,7 +12,15 @@
   margin: 0 auto;
   flex-direction: row;
   justify-content: space-between;
+  
 }
+
+/* @keyframes type{
+  from {
+    width:0;
+  }
+} */
+
 .logo a,
 .main-nav a {
 	padding: 10px 15px;
@@ -20,7 +28,6 @@
 	text-align: center;
   display: block;
   text-decoration:none;
-
 }
 
 ul{
