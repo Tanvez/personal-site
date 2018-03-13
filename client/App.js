@@ -25,8 +25,12 @@ class App extends Component {
           In my previous accounting role I've was seen as a technical person. I would train new interns and employees on all types of accounting applications. I would talk to vendors and troubleshoot software. From these experiences I realized that software development is where my passion lies so I applied to Fullstack to deepen my technical knowledge. And going forward I’m looking for a software development role building a consumer facing product.
           </p>
        </p>
+       <iframe width="854" height="480" src="https://www.youtube.com/embed/zDiktgccGjg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
        <div>
-       <p className="draw">INSERT OTHER STUFF </p>
+       <p className="draw"> 
+       
+          <p>INSERT OTHER STUFF </p>
+       </p>
        </div>
       </div>
 
