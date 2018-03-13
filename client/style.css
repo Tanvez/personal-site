@@ -1,15 +1,16 @@
-p{
+.animate{
   font-family: 'copperplate';
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin: 1em;
+  padding:1em;
   border: 0;
-  color: #5ab590;
+  color: black;
   font-weight: 700;
   position: relative;
   vertical-align: middle;
 }
-p::before, p::after {
+.animate::before, p::after {
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
   content: '';
