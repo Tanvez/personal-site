@@ -1,3 +1,20 @@
+.test-box {
+  color: #5ab590;
+  border:2px solid;
+  animation: createBox .25s;
+  margin: 1em;
+  padding:1em;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@keyframes createBox {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
 .animate{
   font-family: 'copperplate';
   -webkit-box-sizing: border-box;
@@ -85,7 +102,7 @@ nav::before, nav::after {
 .draw::after {
   bottom: 0;
   right: 0;
-  animation: border 2s, borderColor 2s;
+  animation: border 2s, borderLeft 2s;
   animation-delay: 2s;
   animation-fill-mode: forwards;
   -webkit-animation-fill-mode: forwards;
@@ -130,7 +147,7 @@ nav::before, nav::after {
   border-right-color: #60daaa;
   }
 }
-@keyframes borderColor {
+@keyframes borderLeft {
   0% {
     border-bottom-color: #60daaa;
     border-left-color: #60daaa;
