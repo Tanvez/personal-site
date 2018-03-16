@@ -15,7 +15,7 @@ class App extends Component {
       <div>
         <nav className="draw">
           <NavBar />
-        </nav>
+        
         <p className="animate draw">
           <p >
             <h1> BIO </h1>
@@ -34,12 +34,10 @@ class App extends Component {
        <p className="animate draw"> 
           <p>INSERT OTHER STUFF </p>
           <Scene />
-          
        </p>
        </div>
+       </nav>
       </div>
-
-
     )
   }
 }
