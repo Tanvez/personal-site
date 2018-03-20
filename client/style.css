@@ -1,12 +1,17 @@
 .test-box {
   color: #5ab590;
   border:2px solid;
-  animation: createBox .25s;
   margin: 1em;
   padding:1em;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  -moz-box-shadow: 0 0 9px rgba(21,171,195,1.0);
+	-webkit-box-shadow: 0 0 9px rgba(21,171,195,1.0);
+  box-shadow: 0 0 9px rgba(21,171,195,1.0);
+  -webkit-animation: createBox .25s;
+  
 }
+
 @keyframes createBox {
   from {
     transform: scale(0);
@@ -17,6 +22,7 @@
 }
 .animate{
   font-family: 'copperplate';
+  
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin: 1em;
@@ -27,7 +33,7 @@
   position: relative;
   vertical-align: middle;
 }
-.animate::before, p::after {
+.animate::before, .animate::after {
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
   content: '';
@@ -98,6 +104,7 @@ nav::before, nav::after {
   animation-delay: 1s;
   animation-fill-mode: forwards;
   -webkit-animation-fill-mode: forwards;
+ 
 }
 .draw::after {
   bottom: 0;
@@ -106,6 +113,8 @@ nav::before, nav::after {
   animation-delay: 2s;
   animation-fill-mode: forwards;
   -webkit-animation-fill-mode: forwards;
+  
+  
 
 }
 
@@ -125,6 +134,7 @@ nav::before, nav::after {
   100% {
     width: 100%;
     height: 100%;
+    
   }
 }
 
@@ -132,6 +142,7 @@ nav::before, nav::after {
   0% {
      border-top-color: #60daaa;
   border-right-color: #60daaa;
+  
   }
   50% {
      border-top-color: #60daaa;
@@ -164,6 +175,7 @@ nav::before, nav::after {
   100% {
     border-bottom-color: #60daaa;
     border-left-color: #60daaa;
+   
   }
 }
 
