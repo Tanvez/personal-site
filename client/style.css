@@ -9,7 +9,6 @@
 	-webkit-box-shadow: 0 0 9px rgba(21,171,195,1.0);
   box-shadow: 0 0 9px rgba(21,171,195,1.0);
   -webkit-animation: createBox .25s;
-  
 }
 
 @keyframes createBox {
@@ -52,7 +51,8 @@ nav {
   font-size: inherit;
   font-weight: 700;
   position: relative;
-  vertical-align: middle;
+  vertical-align: middle; 
+  padding-left: 0;/* for nav bar icon to the left */
 }
 nav::before, nav::after {
   -webkit-box-sizing: inherit;
