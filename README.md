@@ -1,0 +1,1 @@
+Testing Jira Smart Commit with time
