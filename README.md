@@ -1,1 +1,1 @@
-Testing Jira Smart Commit with time working?
+Testing Jira Smart Commit with in progress
