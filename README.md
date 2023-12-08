@@ -1,1 +1,1 @@
-Testing Jira Smart Commit with in progress
+Testing Jira Smart Commit with in progress KAN 4 test
